@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template name="profesor_list">
+    <tree>
+      <field name="name"/>
+      <field name="email"/>
+      <field name="telefono"/>
+      <field name="asignaturas"/>
+    </tree>
+  </template>
+  <template name="profesor_form">
+    <form>
+      <group>
+        <field name="name"/>
+        <field name="email"/>
+        <field name="telefono"/>
+      </group>
+      <field name="asignaturas"/>
+      <field name="excursiones_asignadas"/>
+    </form>
+  </template>
+
+</odoo>
+

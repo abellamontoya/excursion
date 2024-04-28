@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template name="excursion_list">
+    <tree>
+      <field name="destino"/>
+      <field name="fecha"/>
+      <field name="profesor_responsable"/>
+      <field name="numero_alumnos"/>
+    </tree>
+  </template>
+  <template name="excursion_form">
+    <form>
+      <group>
+        <field name="destino"/>
+        <field name="fecha"/>
+        <field name="hora_salida"/>
+        <field name="hora_regreso"/>
+      </group>
+      <group>
+        <field name="profesor_responsable"/>
+        <field name="numero_alumnos"/>
+      </group>
+      <field name="descripcion"/>
+      <field name="ruta"/>
+      <field name="actividades"/>
+    </form>
+  </template>
+
+</odoo>
+

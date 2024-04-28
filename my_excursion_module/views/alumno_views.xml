@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template name="alumno_list">
+    <tree>
+      <field name="name"/>
+      <field name="curso"/>
+      <field name="email"/>
+      <field name="alergias_alimentarias"/>
+      <field name="necesidades_especiales"/>
+    </tree>
+  </template>
+  <template name="alumno_form">
+    <form>
+      <group>
+        <field name="name"/>
+        <field name="curso"/>
+      </group>
+      <group>
+        <field name="email"/>
+        <field name="telefono"/>
+      </group>
+      <group>
+        <field name="alergias_alimentarias"/>
+        <field name="necesidades_especiales"/>
+      </group>
+    </form>
+  </template>
+
+</odoo>
+
